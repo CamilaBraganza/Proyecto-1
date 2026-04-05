@@ -1,0 +1,165 @@
+header{
+    background-color:#6B663C;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%; 
+    display: block;   
+}
+
+h1{
+   color: #413D19;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;;
+    padding-top: 20px;
+    
+}
+
+.estiloespecial{
+    color: #413D19;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;;
+    margin-bottom: 30px;
+
+}
+
+nav ul{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 20px;
+  margin: 20px auto;
+  text-decoration: none;
+  gap: 20px;
+}
+
+ul li a{
+    color: #96926D;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+body{
+    background-color:#e6e2bf;
+    margin: 0px;
+    padding: 0;
+}
+
+main img{
+    width: 50%;
+    height: auto;
+    margin: 380px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+
+}
+
+.texto{
+    background-color: #96926D;
+    height: auto;;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;;
+    margin-bottom: 20px;
+}
+
+.pasiones{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+    color: #413D19;
+    text-align: center;
+    font-size: 40px;;
+    margin-bottom: 20px;
+}
+
+.listado-pasiones{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #413D19;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+#foto-pilates{
+    width: 700px;
+    height: auto;
+}
+
+#poemas{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #96926D;
+    text-align: center;
+    font-size: 30px;      
+}
+
+h4 a{
+    color: #413D19;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 690px;
+
+}
+
+#titulopoesia{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e6e2bf;
+    text-align: center;
+    font-size: 30px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: #96926D;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+ 
+}
+
+h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #413D19;
+    text-align: left;
+    font-size: 30px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+a{
+    color: #413D19;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 70px;
+    
+}
+
+footer{
+    background-color:#6B663C;
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%; 
+    display: block; 
+}
+
+footer p{
+    color: #e6e2bf;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+}
+
+
+
+
+

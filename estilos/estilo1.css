@@ -1,165 +1,155 @@
 header{
     background-color:#6B663C;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    width: 100%; 
-    display: block;   
+    padding-top: 1px;
 }
+
 
 h1{
    color: #413D19;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 50px;;
-    padding-top: 20px;
-    
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   font-size: 60px;
 }
 
-.estiloespecial{
-    color: #413D19;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 0px;
-    text-align: center;
-    font-size: 50px;;
-    margin-bottom: 30px;
-
-}
 
 nav ul{
   display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
-  padding: 20px;
-  margin: 20px auto;
-  text-decoration: none;
-  gap: 20px;
+  
 }
 
+
 ul li a{
-    color: #96926D;
-    text-decoration: none;
-    font-size: 30px;
+    color: #413D19;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
+
 
 body{
     background-color:#e6e2bf;
     margin: 0px;
-    padding: 0;
+    
 }
+
+
+.estiloespecial{
+    color: #772a0f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+
+}
+
 
 main img{
-    width: 50%;
+    width: 40%;
     height: auto;
-    margin: 380px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    display:flex;
+    justify-self: center;
     padding-bottom: 20px;
-
+    
 }
 
-.texto{
-    background-color: #96926D;
-    height: auto;;
-    padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;;
-    margin-bottom: 20px;
-}
 
 .pasiones{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 0px;
     color: #413D19;
     text-align: center;
-    font-size: 40px;;
-    margin-bottom: 20px;
+    font-size: 40px;
 }
 
 .listado-pasiones{
-    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #413D19;
+    color: #772a0f;
     font-size: 30px;
-    text-align: center;
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 
 #foto-pilates{
-    width: 700px;
+    width: 30%;
     height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(90, 91, 91);
 }
+
 
 #poemas{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #96926D;
+    color: #6B663C;
     text-align: center;
-    font-size: 30px;      
+    font-size: 30px;   
+ 
 }
+
 
 h4 a{
     color: #413D19;
-    text-decoration: none;
     font-size: 30px;
-    margin: 690px;
+    display: block;
+    text-align: center;
+    
+}
+
+a{
+    color: #772a0f;
+    text-decoration: none;
+    padding-left: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    display: flex
 
 }
 
 #titulopoesia{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #e6e2bf;
+    color: #413D19;
     text-align: center;
     font-size: 30px; 
-    margin-top: 10px;
-    margin-bottom: 30px;
-    background-color: #96926D;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 20px;
  
 }
 
 h5{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #413D19;
+    color: #772a0f;
     text-align: left;
     font-size: 30px; 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 30px;
+    padding-left: 30px;
 }
 
-a{
-    color: #413D19;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 70px;
-    
-}
 
 footer{
     background-color:#6B663C;
-    margin: 0px;
     padding: 20px;
-    box-sizing: border-box;
-    width: 100%; 
     display: block; 
+   
 }
 
 footer p{
     color: #e6e2bf;
     text-align: center;
     font-size: 15px;
-    margin: 0px;
 }
 
+.boton{
+    width: 160px;
+    height: 35px;
+    border-radius: 30px;
+    background-color:#bab58a ;
+    margin-bottom: 30px;
+    display: flex;
+    
 
+    
+    
+    
+    
+}
 
 
 

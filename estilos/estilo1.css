@@ -1,132 +1,183 @@
 header{
     background-color:#6B663C;
     padding-top: 1px;
+   
 }
-
+    
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 h1{
    color: #413D19;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-align: center;
    font-size: 60px;
+ 
 }
 
 
 nav ul{
   display: flex;
-  justify-content: space-around;
-  list-style: none;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
   
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;            
+  margin: 0;            
 }
 
 
 ul li a{
-    color: #413D19;
+    color: #0c0c0c;
     font-size: 25px;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+
 }
 
 
 body{
     background-color:#e6e2bf;
     margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     
 }
 
-
-.estiloespecial{
+.estiloindex{
     color: #772a0f;
+    text-shadow: 2px 2px 4px #a38446;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 40px;
+    
+}
+
+.estiloespecial{
+    color: #772a0f;
+    text-shadow: 2px 2px 4px #a38446;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-self: center;
+    font-size: 40px;
+    
 
 }
 
 
 main img{
-    width: 40%;
+    max-width: 100%;
+    width: 70%;
     height: auto;
     display:flex;
     justify-self: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    
     
 }
 
-
-.pasiones{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #413D19;
-    text-align: center;
-    font-size: 40px;
-}
 
 .listado-pasiones{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #772a0f;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
     
 }
 
 #foto-pilates{
-    width: 30%;
+    width: 40%;
     height: auto;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px rgb(90, 91, 91);
+    box-shadow: 5px 5px 5px rgb(166, 176, 145);
+    
 }
 
 
 #poemas{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #6B663C;
+    color: #000000;
     text-align: center;
-    font-size: 30px;   
+    font-size: 35px; 
+    margin: 0%;  
  
 }
 
 
 h4 a{
-    color: #413D19;
+    color: #782506;
     font-size: 30px;
     display: block;
     text-align: center;
+    text-decoration: none;
+    padding-bottom: 30px;
     
 }
 
-a{
-    color: #772a0f;
-    text-decoration: none;
-    padding-left: 40px;
-    margin-bottom: 40px;
+.herodejadoimagen{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-    display: flex
-
+    font-weight: bold;
+    padding-bottom: 20px;
+    
 }
 
 #titulopoesia{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #413D19;
+    color: #887d17;
     text-align: center;
     font-size: 30px; 
+    text-shadow: 1px 1px 2px #cbac6d;
+    
  
 }
+
 
 h5{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #772a0f;
-    text-align: left;
-    font-size: 30px; 
-    padding-left: 30px;
+    font-size: 40px; 
+    justify-self: center;
+    text-shadow: 2px 2px 4px #a38446;
+    margin-top: 0%;
+    
 }
+
+.mail {
+    color: #782506;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
 
 
 footer{
     background-color:#6B663C;
-    padding: 20px;
-    display: block; 
+    padding: 15px;
+    height: 100%;
    
 }
 
@@ -134,22 +185,100 @@ footer p{
     color: #e6e2bf;
     text-align: center;
     font-size: 15px;
+    text-shadow: #272620 1px 1px 2px;
+
 }
 
-.boton{
-    width: 160px;
-    height: 35px;
-    border-radius: 30px;
-    background-color:#bab58a ;
-    margin-bottom: 30px;
+
+
+@media (max-width: 480px){
+    
+   h1{
+   text-align: center;
+   font-size: 30px;
+ 
+    }
+
+    nav ul{
     display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+   
+    }
     
+    ul li a{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    }
 
+    .estiloindex{
+    font-size: 20px;
+
+    }
+
+    .estiloespecial{
+    font-size: 20px;
+
+    }
+
+    .listado-pasiones{
+    font-size: 10px;    
+    padding-bottom: 10px;
+
+    }
+
+    main img{
+    max-width: 100%;
+    width: 60%;
+    height: auto;
+    height: auto;
+    display:flex;
+    justify-self: center;
+    }
+
+    .herodejadoimagen{
+    font-size: 15px; 
+    max-width: 90%;
+
+    }
+
+    #poemas{
+    font-size: 20px;
+    }
+
+    #titulopoesia{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #887d17;
+    text-align: center;
+    font-size: 15px; 
+    text-shadow: 1px 1px 2px #cfb278;
+    }
+
+    h4 a{
+    font-size: 15px;
+
+    }
+   
+    h5{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .mail{
+    font-size: 15px;
+    padding-bottom: 30px;
+    }
     
-    
-    
-    
+    footer{
+    padding: 15px;
+    }
+
+    footer p{
+    font-size: 8px;
+    }
 }
-
-
 

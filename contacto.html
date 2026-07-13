@@ -3,32 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio personal</title>
-     <link rel="stylesheet" href="estilos/estilo1.css">
+    <title>SITIO PERSONAL | BRAGANZA CAMILA</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-
     <header>
-        <h1>CAMILA BRAGANZA</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="intereses.html">Intereses</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+         <div class="logo">
+            <div>
+                <img src="https://img.magnific.com/premium-vector/colorful-bird-wing-feather-logo-icon_23758-199.jpg?semt=ais_hybrid&w=740&q=80" alt="logotipo">
+            </div>
+
+            <div class="nombre-empresa">
+                Camila Braganza
+            </div>
+        </div>
+        
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="intereses.html">Intereses</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
+        <div class="contenedor5">
+            <div class="texto5">
+               Si queres saber más sobre mí o contactarme por cualquier consulta hacelo <strong class="vida">aquí.</strong>
+            </div>
 
-        <h5>Contacto</h5>
-        <a class="mail" href="mailto:cbraganza@uade.edu.ar"> EMAIL <br> cbraganza@uade.edu.ar</a>
-        
+            <form class="formulario-contacto" action="#" method="post" novalidate>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
     </main>
 
-     <footer>
-        <p>Camila Braganza. All Rights Reserved. <br><br>© 2026 </p>
-    </footer>
+    <footer>
+        <div>
+           <img src="https://img.magnific.com/premium-vector/colorful-bird-wing-feather-logo-icon_23758-199.jpg?semt=ais_hybrid&w=740&q=80" alt="logotipo"> 
+        </div>
 
+        <hr>
+
+        <div class="alumno">
+            Camila Braganza - Diseño y Desarrollo Web - © 2026
+        </div>
+    </footer> 
+
+    <script src="script.js"></script>
 </body>
 </html>

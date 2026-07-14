@@ -66,7 +66,7 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 220px 0px 70px 100px;
+    padding: 220px 0px 70px 90px;
 }
 
 .contenedor3{
@@ -263,5 +263,162 @@ footer img{
     padding-top: 20px;
     padding-left: 50px;
     color: rgb(132, 15, 124);
+}
+
+@media screen and (min-width: 340px) and (max-width: 768px) {
+    header {
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .logo {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .nombre-empresa {
+        font-size: 24px;
+    }
+
+    header img {
+        width: 90px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 1;
+        align-items: center;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .contenedor1,
+    .contenedor2,
+    .contenedor3,
+    .contenedor5 {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .contenedor3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contenedor1 img,
+    .contenedor2 img,
+    .info img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .texto1,
+    .texto2,
+    .texto5 {
+        font-size: 20px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .texto1 button,
+    .contenedor4 button {
+        margin-left: 0;
+        padding: 12px 40px;
+    }
+
+    .poemas{
+        font-size: 20px;
+    }
+
+    .texto-color, .texto-resp{
+        text-align: center;
+        font-size:larger;
+    }
+
+    .formulario-contacto {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer img{
+        width: 90px;
+    }
+
+    .alumno {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    header {
+        padding: 20px 30px;
+        align-items: center;
+    }
+
+    nav ul {
+        gap: 35px;
+        padding-top: 0;
+    }
+
+    .contenedor1 {
+        gap: 50px;
+        padding: 220px 30px 50px 50px;
+    }
+
+    footer img{
+        width: 100px;
+    }
+
+    .contenedor2 {
+        padding: 220px 30px 50px 70px;
+        gap: 5px;
+    }
+
+    .contenedor3 {
+        padding: 50px 30px 70px 140px;
+        gap: 40px;
+    }
+
+    .contenedor5 {
+        padding: 220px 30px 70px;
+    }
+
+    .contenedor1 img {
+        width: 360px;
+    }
+
+    .contenedor2 img {
+        width: 150px;
+        height: 230px;
+    }
+
+    .texto1,
+    .texto2,
+    .texto-color,
+    .texto-resp {
+        font-size: 25px;
+
+    }
+
+    .texto5{
+        font-size: 25px;
+    }
+
+    .poemas{
+        font-size: 20px;
+    }
 }
 

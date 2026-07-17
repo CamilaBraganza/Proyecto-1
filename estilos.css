@@ -129,7 +129,7 @@ body{
     border-radius: 999px;
     background: linear-gradient(135deg, #c99a49, #9b7d8d);
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     cursor: pointer;
     margin-top: 10px;
@@ -228,14 +228,14 @@ body{
 
 .texto1 button a{
     color: white;
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
 }
 
 .contenedor4 button a{
     color: white;
-    font-size: 17px;
+    font-size: 19px;
     text-decoration: none;
     font-weight: bold;
 }
